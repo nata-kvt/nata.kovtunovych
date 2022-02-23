@@ -1,0 +1,79 @@
+* {
+    font-family: Roboto, 'PT Sans';
+}
+
+
+/*Header*/
+.text-top {
+    margin-top: 30px;
+    margin-bottom: 98px;
+}
+
+.lang {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px #000000;
+    padding-right: 40px;
+}
+
+.documentation {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.logo {
+    position: absolute;
+    height: 50px;
+    right: 24px;
+    top: 12.65px;
+}
+
+/*Body elements*/
+ body {
+     margin: 0 24px 0 44px;
+ }
+
+.text-block {
+    margin-bottom: 100px;
+}
+
+sup{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 23px;
+    color: #000000;
+    padding-right: 10px;
+}
+
+.title {
+    font-family: "PT Sans";
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.text-underline {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.first-word {
+    font-weight: 900;
+}
+
+code {
+    background-color: #eeeeee;
+}
