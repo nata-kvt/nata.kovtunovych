@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="form-container">
+    <div class="form">
+
+        <div class="form--title">
+            <span>Create an Account</span>
+        </div>
+
+        <form action="">
+
+            <div class="name double-field">
+                <div class="firstname_field">
+                    <label for="firstname">First Name</label>
+                    <input
+                            class="field_box--short"
+                            id="firstname"
+                            type="text"
+                            name="firstname">
+                </div>
+
+                <div class="lastname_field">
+                    <label for="lastname">Last Name</label>
+                    <input
+                            class="field_box--short"
+                            id="lastname"
+                            type="text"
+                            name="lastname">
+                </div>
+            </div>
+
+            <div class="email single-field">
+                <label for="email">Email</label>
+                <input
+                        class="field_box--long"
+                        id="email"
+                        type="email"
+                        name="email">
+
+                <span class="field-subtitle">We'll never share your email with anyone else.</span>
+            </div>
+
+            <div class="gender field-radio">
+                <div class="radio">
+                    <input
+                            id="male"
+                            type="radio"
+                            name="day"
+                            value="Male"
+                            checked>
+
+                    <label for="male">Male</label>
+                </div>
+
+                <div class="radio">
+                    <input
+                            id="female"
+                            type="radio"
+                            name="day"
+                            value="Male">
+
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="country double-field">
+                <div class="country_selector">
+                    <label for="country">Country </label>
+                    <div class="select-wrapper">
+                        <select
+                                class="select-country"
+                                id="country"
+                                name="country"
+                                required>
+
+                            <option
+                                    value=""
+                                    disabled
+                                    selected
+                                    hidden>Select
+                            </option>
+
+                            <option value="1">Ukraine</option>
+                            <option value="2">Ukraine again</option>
+                            <option value="3">Still Ukraine</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="city-field">
+                    <label for="city">City</label>
+                    <input
+                            class="field_box--short"
+                            id="city"
+                            type="text"
+                            name="city">
+                </div>
+            </div>
+
+            <div class="text single-field">
+                <input
+                        class="field_box--long"
+                        type="text"
+                        name="text">
+            </div>
+        </form>
+
+        <div class="terms-of-use">
+                <span>By clicking the 'Sign Up' button, you confirm that you accept our
+                            <a href="">Terms of Use</a> and
+                            <a href="">Privacy Policy</a>.</span>
+        </div>
+
+        <div class="line"> </div>
+
+        <div class="login">
+                <span>Have an account?
+                    <a href="">Log In</a>
+                </span>
+        </div>
+
+    </div>
+
+
+</div>
+</body>
+
+</html>
