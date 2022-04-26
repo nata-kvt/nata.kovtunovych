@@ -1,3 +1,4 @@
+/*General styles*/
 *{
     font-family: Poppins, sans-serif;
     box-sizing: border-box;
@@ -8,105 +9,96 @@
     font-family: Poppins, sans-serif;
 }
 
-/*Header--logo--navigation*/
-.header-logo {
-    display: inline-block;
-    margin-right: 320px;
-    width: 185px;
+/*Header (logo--navigation)*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.top-menu{
-    display: inline-block;
+.nav-container{
+    display: flex;
+    align-items: center;
 }
 
-.menu {
+.top-nav{
     list-style: none;
-    margin: 0;
+    display: flex;
     padding-left: 0;
+    margin: 0;
 }
 
-.menu--item {
-    display: inline;
-    margin-right: 29px;
-}
-
-.menu--item a {
+.nav--item a {
     text-decoration: none;
     color: #070707;
     font-size: 14px;
-    line-height: 28px;
+    padding-right: 25px;
 }
 
-.menu--item a:hover{
-    color: #FF9900;
-}
+    .nav--item a:hover{
+        color: #FF9900;
+    }
 
-.menu--item a:active{
-    color: #ff6a00;
-}
+    .nav--item a:active{
+        color: #ff6a00;
+    }
 
-/*Header--buttons*/
+    .nav--item a:visited{
+        color: #FF9900;
+    }
+
+
+/*Header (buttons)*/
 .btn--header{
     width: 102px;
     height: 46px;
 }
-
-.btn-sign-in{
+.btn-container{
+    padding-left: 25px;
+}
+.btn-white{
     margin-right: 14px;
-    border: 1px solid #BCD0E5;
     background-color:#FFFFFFFF;
-    box-sizing: border-box;
+    border: 1px solid #BCD0E5;
     border-radius: 4px;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
     color: #173A56;
 }
 
-.btn-sign-in:hover {
-    border: 1px solid #FF9900;
-    color: #FF9900;
-}
+    .btn-white:hover {
+        border: 1px solid #FF9900;
+        color: #FF9900;
+    }
 
-.btn-sign-in:active{
-    border: 1px solid #ff6a00;
-}
+    .btn-white:active{
+        border: 1px solid #ff6a00;
+    }
 
-.btn-sign-up{
+.btn-orange{
     background: #FF9900;
     border-radius: 4px;
     border: none;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
     color: #FFFFFF
 }
 
-.btn-sign-up:hover{
-    box-shadow: 0 0 5px #FF9900;
-    color: #F6F6F6;
-}
+    .btn-orange:hover{
+        box-shadow: 0 0 5px #FF9900;
+        color: #F6F6F6;
+    }
 
-.btn-sign-up:active{
-    background:#ff6a00;
-}
+    .btn-orange:active{
+        background:#ff6a00;
+    }
+
 
 /*Mainscreen*/
 .container-main{
+    display: flex;
     padding-top: 47px;
-}
-
-.main-text-block{
-    display: inline-block;
-    width: 46%;
-    padding-right:63px;
-    padding-top: 60px;
-    vertical-align: top;
-}
-
-.main-image{
-    display: inline-block;
-    width: 53%;
+    align-items: center;
 }
 
 .main-title{
@@ -121,40 +113,27 @@
     line-height: 28px;
 }
 
-.cta-buttons{
+.action-buttons{
     padding-top: 45px;
+    display: flex;
+    align-items: center;
 }
 
-.btn-get-started{
+.btn--get_started{
     width: 175px;
     height: 53px;
     margin-right: 30px;
-    background: #FF9900;
-    border: none;
-    border-radius: 4px;
-    color: #FFFFFFFF;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
 }
 
-.btn-get-started:hover{
-    box-shadow: 0 0 5px #FF9900;
-    color: #F6F6F6;
-}
-
-.btn-get-started:active{
-    background:#ff6a00;
-}
-
-.btn-video{
+.btn-link{
     border:none;
     background-color: #ffffff;
     color: #FF9900;
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
-    text-decoration-line: underline;
+    display:flex;
+    align-items: center;
+
 }
 
 .fa-play{
@@ -162,11 +141,16 @@
     font-size: 20px;
 }
 
-.btn-video:hover{
+.btn-link a{
+    color: #FF9900;
+}
+
+.btn-link a:hover{
     text-shadow: 0 0 5px #ffd5a0;
 }
 
-.btn-video:active{
+.btn-link a:active{
     color: #ff6a00;
 }
+
 
