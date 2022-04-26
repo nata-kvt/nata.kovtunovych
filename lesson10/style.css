@@ -16,47 +16,49 @@
     align-items: center;
 }
 
-.nav-container{
+.nav_container{
     display: flex;
     align-items: center;
 }
 
-.top-nav{
+.top_nav{
     list-style: none;
     display: flex;
     padding-left: 0;
     margin: 0;
 }
 
-.nav--item a {
+.nav--item a, .footer--nav--item a {
     text-decoration: none;
-    color: #070707;
+    color: #2F281E;
     font-size: 14px;
     padding-right: 25px;
 }
 
-    .nav--item a:hover{
+    .nav--item a:visited, .footer--nav--item a:visited{
+        color:#2F281E;
+    }
+
+    .nav--item a:hover, .footer--nav--item a:hover{
         color: #FF9900;
     }
 
-    .nav--item a:active{
+    .nav--item a:active, .footer--nav--item a:active{
         color: #ff6a00;
     }
 
-    .nav--item a:visited{
-        color: #FF9900;
-    }
 
 
 /*Header (buttons)*/
-.btn--header{
+.header--btn{
     width: 102px;
     height: 46px;
 }
-.btn-container{
+.btn_container{
     padding-left: 25px;
 }
-.btn-white{
+.btn_white{
+    cursor: pointer;
     margin-right: 14px;
     background-color:#FFFFFFFF;
     border: 1px solid #BCD0E5;
@@ -66,16 +68,17 @@
     color: #173A56;
 }
 
-    .btn-white:hover {
+    .btn_white:hover {
         border: 1px solid #FF9900;
         color: #FF9900;
     }
 
-    .btn-white:active{
+    .btn_white:active{
         border: 1px solid #ff6a00;
     }
 
-.btn-orange{
+.btn_orange{
+    cursor: pointer;
     background: #FF9900;
     border-radius: 4px;
     border: none;
@@ -84,56 +87,58 @@
     color: #FFFFFF
 }
 
-    .btn-orange:hover{
-        box-shadow: 0 0 5px #FF9900;
+    .btn_orange:hover{
+        box-shadow: 0 0 5px #ffc530;
         color: #F6F6F6;
     }
 
-    .btn-orange:active{
+    .btn_orange:active{
         background:#ff6a00;
     }
 
 
 /*Mainscreen*/
-.container-main{
+.container_main{
     display: flex;
     padding-top: 47px;
     align-items: center;
 }
 
-.main-title{
+.main--title{
     font-weight: 700;
     font-size: 44px;
     line-height: 54px;
 }
 
-.main-subtitle{
+.main--subtitle{
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
 }
 
-.action-buttons{
+.action_buttons{
     padding-top: 45px;
     display: flex;
     align-items: center;
 }
 
-.btn--get_started{
+.btn_get-started{
     width: 175px;
     height: 53px;
     margin-right: 30px;
 }
 
-.btn-link{
-    border:none;
-    background-color: #ffffff;
+.btn_link{
+    text-decoration: none;
     color: #FF9900;
     font-weight: 600;
     font-size: 16px;
     display:flex;
     align-items: center;
+}
 
+.video--btn{
+    text-decoration: underline;
 }
 
 .fa-play{
@@ -141,16 +146,132 @@
     font-size: 20px;
 }
 
-.btn-link a{
+.btn_link a{
     color: #FF9900;
 }
 
-.btn-link a:hover{
-    text-shadow: 0 0 5px #ffd5a0;
+    .btn_link a:hover{
+        text-shadow: 0 0 1px #ffc530;
+    }
+
+    .btn_link a:active{
+        color: #ff6a00;
+    }
+
+/*We design tools section*/
+.section{
+    padding-top: 110px;
+    padding-bottom: 100px;
 }
 
-.btn-link a:active{
-    color: #ff6a00;
+.section--title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+    padding-bottom: 54px;
 }
+
+.tools-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tool{
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+
+}
+
+.tool--title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+    padding-top: 30px;
+}
+
+.tool--text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+    padding-top: 13px;
+}
+
+.tool--btn{
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+}
+.sign-up-now{
+    width: 175px;
+    height: 53px;
+}
+
+
+/*Footer*/
+.footer{
+    border-top: 1px solid #BCD0E57E;
+}
+
+.footer--logo{
+    padding-top: 102px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 33px;
+}
+
+.footer--nav{
+    list-style: none;
+    padding-right: 81px;
+    padding-left: 94px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+}
+
+.sign-up_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up_field{
+    width: 325px;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+    .sign-up_field:hover{
+        outline: none;
+        border: none;
+        box-shadow: 0 0 1px #ff6a00 ;
+    }
+
+    .sign-up_field:focus{
+        outline: none;
+        border: 1px solid #ff6a00;
+    }
+
+.footer--btn{
+    width: 131px;
+    height: 39px;
+}
+
+.footer-button{
+    padding-top: 21px;
+}
+
+
 
 

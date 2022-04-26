@@ -12,45 +12,132 @@
 </head>
 
 <body class="body">
+<!-- Navigation and header buttons -->
 <header class="header">
-    <a class="header-logo" href=""><img src="images/logo.svg"></a>
-    <div class="nav-container">
-        <ul class="top-nav">
+    <div class="header--logo">
+        <a href=""><img alt="Productly logo" src="images/Logo.svg"></a>
+    </div>
+
+    <div class="nav_container">
+        <ul class="top_nav">
             <li class="nav--item"><a href="">Product</a></li>
             <li class="nav--item"><a href="">Customers</a></li>
             <li class="nav--item"><a href="">Pricing</a></li>
             <li class="nav--item"><a href="">Resources</a></li>
         </ul>
-        <div class="btn-container">
-            <button class="btn--header btn-white">Sign In</button>
-            <button class="btn--header btn-orange">Sign Up</button>
+
+        <div class="btn_container">
+            <button class="header--btn btn_white">Sign In</button>
+            <button class="header--btn btn_orange">Sign Up</button>
         </div>
     </div>
-
 </header>
 
 <main>
-    <div class="container-main">
-
+<!-- Title and call-to-action buttons -->
+    <div class="container_main">
         <div class="main-text-block">
-            <h1 class="main-title">The Design Thinking superpowers</h1>
-            <h2 class="main-subtitle">Tools, tutorials, design and innovation experts, all in one place! The most
+            <h1 class="main--title">The Design Thinking superpowers</h1>
+            <h2 class="main--subtitle">Tools, tutorials, design and innovation experts, all in one place! The most
                 intuitive way to imagine your next user experience.</h2>
-            <div class="action-buttons">
-                <button class="btn--get_started btn-orange">Get started</button>
-                <div class="btn-link">
-                    <i class="fa-solid fa-play"></i>
-                    <a href="">Watch the Video</a>
+
+            <div class="action_buttons">
+                <div>
+                    <button class="btn_get-started btn_orange">Get started</button>
+                </div>
+                <div>
+                    <a class="btn_link" href="">
+                        <i class="fa-solid fa-play"></i>
+                        <span class="video--btn">Watch the Video</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+<!-- Main image -->
+        <div class="main-image">
+            <img alt="Happy people main website image" src="images/Image-main.svg">
+        </div>
+    </div>
+
+<!-- Design tools (second section) -->
+    <div class="section design_tools">
+        <div class="section--title">We design tools to unveil<br>your superpowers
+        </div>
+
+        <div class="tools-container">
+            <div class="tool first-click-tests">
+                <div><img alt="Cursor icon" src="images/icon-click.svg">
+                </div>
+                <div class="tool--title"><span>First click tests</span>
+                </div>
+                <div class="tool--text"><span>While most people enjoy casino gambling,</span>
+                </div>
+            </div>
+
+            <div class="tool design-surveys">
+                <div><img alt="Curved line icon" src="images/icon-design.svg">
+                </div>
+                <div class="tool--title"><span>Design surveys</span>
+                </div>
+                <div class="tool--text"><span>Sports betting, lottery and bingo playing for the fun</span>
+                </div>
+            </div>
+
+            <div class="tool preference-tests">
+                <div><img alt="Heart icon" src="images/icon-preference.svg">
+                </div>
+                <div class="tool--title"><span>Preference tests</span>
+                </div>
+                <div class="tool--text"><span>The Myspace page defines the individual.</span>
+                </div>
+            </div>
+
+            <div class="tool five-second-tests">
+                <div><img alt="Hourglass Icon" src="images/icon-5sec-test.svg">
+                </div>
+                <div class="tool--title"><span>Five second tests</span>
+                </div>
+                <div class="tool--text"><span>Personal choices and the overall personality of the person. </span>
                 </div>
             </div>
         </div>
 
-        <div class="main-image">
-            <img src="images/Image-main.svg">
+        <div class="tool--btn">
+            <button class="btn_orange sign-up-now">SIGN UP NOW</button>
         </div>
-
     </div>
 </main>
 
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer--logo">
+        <a href=""><img alt="Productly logo" src="images/Logo.svg"></a>
+    </div>
+
+    <div class="footer_container">
+        <div class="nav_column">
+        <ul class="footer--nav">
+            <li class="footer--nav--item"><a href="">About Us</a></li>
+            <li class="footer--nav--item"><a href="">Blog</a></li>
+            <li class="footer--nav--item"><a href="">Contact</a></li>
+            <li class="footer--nav--item"><a href="">FAQ</a></li>
+        </ul>
+
+        </div>
+        <div class="nav_column">
+            <ul class="footer--nav">
+                <li class="footer--nav--item"><a href="">Disclaimer</a></li>
+                <li class="footer--nav--item"><a href="">Financing</a></li>
+                <li class="footer--nav--item"><a href="">Privacy Policy</a></li>
+                <li class="footer--nav--item"><a href="">Terms of Service</a></li>
+            </ul>
+        </div>
+
+        <div class="sign-up_form">
+            <div class="footer-input"><input class="sign-up_field" type="email"></div>
+            <div class="footer-button"><button class="btn_orange footer--btn">Sing Up Now</button></div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
