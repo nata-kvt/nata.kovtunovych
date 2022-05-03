@@ -1,36 +1,34 @@
-* {
-    font-family: Roboto, 'PT Sans';
+body {
+    font-family: "PT Sans";
 }
 
 
 /*Header*/
-.text-top {
-    margin-top: 30px;
-    margin-bottom: 98px;
+.header_holder {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 30px;
+    padding-bottom: 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .lang {
     font-weight: 900;
-    font-size: 20px;
-    line-height: 23px;
     letter-spacing: 0.04em;
     color: #ffffff;
-    -webkit-text-stroke: 0.5px #000000;
+    -webkit-text-stroke: 1px #000000;
     padding-right: 40px;
 }
 
-.documentation {
-    font-family: Roboto;
-    font-size: 20px;
-    line-height: 23px;
+.documentation {;
     color: #000000;
 }
 
 .logo {
-    position: absolute;
     height: 50px;
-    right: 24px;
-    top: 12.65px;
 }
 
 /*Body elements*/
@@ -44,22 +42,21 @@
 
 sup{
     font-size: 20px;
-    font-weight: bold;
     line-height: 23px;
     color: #000000;
     padding-right: 10px;
 }
 
 .title {
-    font-family: "PT Sans";
+    font-family: Roboto;
     font-size: 36px;
+    font-weight: 900;
     line-height: 48px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
 
 p {
-    font-family: Roboto;
     font-weight: 400;
     font-size: 36px;
     line-height: 48px;
@@ -71,7 +68,8 @@ p {
 }
 
 .first-word {
-    font-weight: 900;
+    font-family: "PT Sans";
+    font-weight: 700;
 }
 
 code {
