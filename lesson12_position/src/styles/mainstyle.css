@@ -1,0 +1,165 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans";
+    margin: 0;
+}
+
+/*Header*/
+.header_holder {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 18px 40px 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left:0;
+    right:0;
+    background-color: #FFFFFFFF;
+}
+
+.lang {
+    font-weight: 900;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #000000;
+    padding-right: 40px;
+}
+
+.documentation {;
+    color: #000000;
+}
+
+.logo {
+    height: 50px;
+}
+
+/*Background Images*/
+
+.line{
+    position: fixed;
+    z-index: -2;
+    top:150px;
+}
+
+.line-2{
+    top:285px;
+}
+
+.line-3{
+    top:420px;
+}
+
+.line-4{
+    top:560px;
+}
+
+.image{
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+/*left sidebar*/
+.main-container{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+.sidebar{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+    padding-left: 40px;
+    position: relative;
+}
+
+.side-menu{
+    position: sticky;
+    top: 90px;
+}
+
+.menu-item{
+    padding-bottom: 93px;
+}
+
+.menu-item sup{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.988px;
+    line-height: 25px;
+    color: #000000;
+    padding-right: 22px;
+}
+
+.menu-item a{
+    text-decoration: none;
+}
+
+.menu-item a:visited{
+    color: black;
+}
+
+/*Text container*/
+
+.text-container{
+    max-width: 1000px;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.text-block {
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.text-underline {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.first-word {
+    font-family: "PT Sans";
+    font-weight: 700;
+}
+
+code {
+    background-color: #eeeeee;
+}
+
+.title:before{
+    content: url("../images/line.svg");
+    position:absolute;
+    top:-60px;
+}
