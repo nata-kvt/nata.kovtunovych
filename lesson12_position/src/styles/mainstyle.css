@@ -5,25 +5,26 @@
 }
 
 body {
-    font-family: "PT Sans";
+    font-family: "PT Sans", sans-serif;
     margin: 0;
 }
 
 /*Header*/
 .header_holder {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 20px;
     line-height: 23px;
     padding: 18px 40px 18px 40px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
     top: 0;
     left:0;
     right:0;
-    background-color: #FFFFFFFF;
+    background-color: #FFF;
 }
 
 .lang {
@@ -42,26 +43,7 @@ body {
     height: 50px;
 }
 
-/*Background Images*/
-
-.line{
-    position: fixed;
-    z-index: -2;
-    top:150px;
-}
-
-.line-2{
-    top:285px;
-}
-
-.line-3{
-    top:420px;
-}
-
-.line-4{
-    top:560px;
-}
-
+/*Background Image*/
 .image{
     position: fixed;
     z-index: -1;
@@ -71,57 +53,73 @@ body {
 
 /*left sidebar*/
 .main-container{
-    padding-top: 120px;
     display: flex;
     justify-content: space-between;
     padding-right: 40px;
 }
 .sidebar{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: Roboto, sans-serif;
     font-weight: 900;
     font-size: 36px;
     line-height: 42px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #000000;
-    padding-left: 40px;
     position: relative;
 }
 
-.side-menu{
+.aside-list{
     position: sticky;
-    top: 90px;
+    list-style-type: none;
+    counter-reset:  item;
+    top: 122px;
+    left: 0;
 }
 
 .menu-item{
-    padding-bottom: 93px;
+    position: relative;
+    padding-top: 90px;
+    padding-left: 22px;
 }
 
-.menu-item sup{
-    font-family: 'Roboto';
-    font-style: normal;
+.menu-item:first-child {
+    padding-top: 10px;
+}
+
+.menu-item:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100vw;
+    border-bottom: 1px solid #bfbfbf;
+    z-index: 1;
+}
+
+.menu-item:before {
+    content: counter(item);
+    counter-increment: item;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 20.988px;
     line-height: 25px;
     color: #000000;
-    padding-right: 22px;
+    position: absolute;
+    left: 0;
 }
 
-.menu-item a{
-    text-decoration: none;
-}
-
-.menu-item a:visited{
-    color: black;
-}
 
 /*Text container*/
-
 .text-container{
     max-width: 1000px;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 180px;
+}
+
+.title:before{
+    content: url("../images/line.svg");
+    position:absolute;
+    top:-60px;
 }
 
 .text-block {
@@ -130,7 +128,7 @@ body {
 }
 
 .title {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 36px;
     font-weight: 900;
     line-height: 48px;
@@ -150,7 +148,6 @@ p {
 }
 
 .first-word {
-    font-family: "PT Sans";
     font-weight: 700;
 }
 
@@ -158,8 +155,3 @@ code {
     background-color: #eeeeee;
 }
 
-.title:before{
-    content: url("../images/line.svg");
-    position:absolute;
-    top:-60px;
-}
