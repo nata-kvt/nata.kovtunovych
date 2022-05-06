@@ -102,13 +102,13 @@ input[type="radio"]{
 }
 
 input[type="radio"]+label:before{
-    content: url('images/radiobutton.svg');
+    content: url('../images/radiobutton.svg');
     position: absolute;
     margin-left: -30px;
 }
 
 input[type="radio"]:checked+label:before{
-    content: url('images/radiobutton_checked.svg');
+    content: url('../images/radiobutton_checked.svg');
 }
 
 /**selector**/
@@ -137,7 +137,7 @@ input[type="radio"]:checked+label:before{
 }
 
 .select-wrapper:after{
-    content: url("images/select.svg");
+    content: url("../images/select.svg");
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
