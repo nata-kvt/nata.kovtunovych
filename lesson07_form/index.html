@@ -11,129 +11,253 @@
 </head>
 
 <body>
-<div class="form-container">
-    <div class="form">
+    <div class="forms-holder">
 
-        <div class="form--title">
-            <span>Create an Account</span>
-        </div>
+        <div class="form-container">
 
-        <form action="">
-
-            <div class="name double-field">
-                <div class="firstname_field">
-                    <label for="firstname">First Name</label>
-                    <input
-                            class="field_box--short"
-                            id="firstname"
-                            type="text"
-                            name="firstname">
-                </div>
-
-                <div class="lastname_field">
-                    <label for="lastname">Last Name</label>
-                    <input
-                            class="field_box--short"
-                            id="lastname"
-                            type="text"
-                            name="lastname">
-                </div>
+            <div class="form--title">
+                <span>Create an Account</span>
             </div>
 
-            <div class="email single-field">
-                <label for="email">Email</label>
-                <input
-                        class="field_box--long"
-                        id="email"
-                        type="email"
-                        name="email">
+            <form action="#">
 
-                <span class="field-subtitle">We'll never share your email with anyone else.</span>
-            </div>
+                <div class="double-field">
+                    <div class="firstname_field">
+                        <label for="firstname">First Name</label>
+                        <input
+                                class="field_box short"
+                                id="firstname"
+                                type="text"
+                                name="firstname">
+                    </div>
 
-            <div class="gender field-radio">
-                <div class="radio">
-                    <input
-                            id="male"
-                            type="radio"
-                            name="day"
-                            value="Male"
-                            checked>
+                    <div class="lastname_field">
+                        <label for="lastname">Last Name</label>
+                        <input
+                                class="field_box short"
+                                id="lastname"
+                                type="text"
+                                name="lastname">
+                    </div>
 
-                    <label for="male">Male</label>
                 </div>
 
-                <div class="radio">
+                <div class="single-field">
+                    <label for="email">Email</label>
                     <input
-                            id="female"
-                            type="radio"
-                            name="day"
-                            value="Male">
+                            class="field_box long"
+                            id="email"
+                            type="email"
+                            name="email">
 
-                    <label for="female">Female</label>
+                    <span class="field-subtitle">We'll never share your email with anyone else.</span>
                 </div>
-            </div>
 
-            <div class="country double-field">
-                <div class="country_selector">
-                    <label for="country">Country </label>
-                    <div class="select-wrapper">
-                        <select
-                                class="select-country"
-                                id="country"
-                                name="country"
-                                required>
+                <div class="gender field-radio">
+                    <div class="radio">
+                        <input
+                                id="male"
+                                type="radio"
+                                name="day"
+                                value="Male"
+                                checked>
 
-                            <option
-                                    value=""
-                                    disabled
-                                    selected
-                                    hidden>Select
-                            </option>
+                        <label for="male">Male</label>
+                    </div>
 
-                            <option value="1">Ukraine</option>
-                            <option value="2">Ukraine again</option>
-                            <option value="3">Still Ukraine</option>
-                        </select>
+                    <div class="radio">
+                        <input
+                                id="female"
+                                type="radio"
+                                name="day"
+                                value="Male">
+
+                        <label for="female">Female</label>
                     </div>
                 </div>
 
-                <div class="city-field">
-                    <label for="city">City</label>
-                    <input
-                            class="field_box--short"
-                            id="city"
-                            type="text"
-                            name="city">
+                <div class="double-field">
+                    <div class="country_selector short">
+                        <label for="country">Country </label>
+                        <div class="select-wrapper">
+                            <select
+                                    class="select-country"
+                                    id="country"
+                                    name="country"
+                                    required>
+
+                                <option
+                                        value=""
+                                        disabled
+                                        selected
+                                        hidden>Select
+                                </option>
+
+                                <option value="1">Ukraine</option>
+                                <option value="2">Ukraine again</option>
+                                <option value="3">Still Ukraine</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="city-field">
+                        <label for="city">City</label>
+                        <input
+                                class="field_box short"
+                                id="city"
+                                type="text"
+                                name="city">
+                    </div>
                 </div>
+
+                <div class="text single-field">
+                    <input
+                            class="field_box long"
+                            type="text"
+                            name="text">
+                </div>
+            </form>
+
+            <div class="terms-of-use">
+                    <span>By clicking the 'Sign Up' button, you confirm that you accept our
+                                <a href="">Terms of Use</a> and
+                                <a href="">Privacy Policy</a>.</span>
             </div>
 
-            <div class="text single-field">
-                <input
-                        class="field_box--long"
-                        type="text"
-                        name="text">
+            <div class="line"> </div>
+
+            <div class="login">
+                    <span>Have an account?
+                        <a href="">Log In</a>
+                    </span>
             </div>
-        </form>
 
-        <div class="terms-of-use">
-                <span>By clicking the 'Sign Up' button, you confirm that you accept our
-                            <a href="">Terms of Use</a> and
-                            <a href="">Privacy Policy</a>.</span>
         </div>
 
-        <div class="line"> </div>
+        <div class="form-container">
 
-        <div class="login">
-                <span>Have an account?
-                    <a href="">Log In</a>
-                </span>
+            <div class="form--title">
+                <span>Profile</span>
+            </div>
+
+            <form action="#">
+
+                <div class="userpic_container">
+
+                    <div class="image">
+                        <img src="scr/images/userpic.png" alt="User">
+                    </div>
+
+
+                    <div>
+
+                        <div class="img-fields">
+
+                            <div class="upload">
+                                <input class="field_box uploader"
+                                       type="text"
+                                       name="photo_url">
+                            </div>
+
+                            <div class="delete">
+                                <input class="field_box del-btn"
+                                       type="text"
+                                       value="">
+                            </div>
+                        </div>
+
+                            <div class="upload-subtitle">
+                                <span class="field-subtitle">Up to 1 MB (300x300 px)</span>
+                            </div>
+
+                    </div>
+                </div>
+
+                <div class="double-field">
+                    <div class="firstname_field">
+                        <label for="name">Name</label>
+                        <input
+                                class="field_box short"
+                                id="name"
+                                type="text"
+                                name="firstname">
+                    </div>
+
+                    <div class="lastname_field">
+                        <label for="profile_email">Email</label>
+                        <input
+                                class="field_box short"
+                                id="profile_email"
+                                type="text"
+                                name="lastname">
+                    </div>
+                </div>
+
+
+                <div class="country double-field">
+                    <div class="country_selector">
+                        <label for="profile_country">Country </label>
+                        <div class="select-wrapper">
+                            <select
+                                    class="select-country"
+                                    id="profile_country"
+                                    name="country"
+                                    required>
+
+                                <option
+                                        value=""
+                                        disabled
+                                        selected
+                                        hidden>Select
+                                </option>
+
+                                <option value="1">Ukraine</option>
+                                <option value="2">Ukraine again</option>
+                                <option value="3">Still Ukraine</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="city-field">
+                        <label for="profile_city">City</label>
+                        <input
+                                class="field_box short"
+                                id="profile_city"
+                                type="text"
+                                name="city">
+                    </div>
+                </div>
+
+                <div class="name double-field">
+                    <div class="firstname_field">
+                        <label for="zip">Zip Code</label>
+                        <input
+                                class="field_box short"
+                                id="zip"
+                                type="text"
+                                name="firstname">
+                    </div>
+
+                    <div class="lastname_field">
+                        <label for="phone">Phone</label>
+                        <input
+                                class="field_box short"
+                                id="phone"
+                                type="tel"
+                                name="lastname">
+                    </div>
+                </div>
+
+                <div class="text single-field">
+                    <input
+                            class="field_box shorter"
+                            type="text"
+                            name="text">
+                </div>
+            </form>
         </div>
-
+        </div>
     </div>
-
-
-</div>
 </body>
 
 </html>
