@@ -206,38 +206,35 @@ a, a:visited{
     padding-right: 20px;
 }
 
-.uploader{
+.upload{
+    position:relative;
+    padding-right: 10px;
     width: 138px;
     height: 30px;
 }
 
-.del-btn{
-    width: 30px;
-    height: 30px;
+.uploader{
+    opacity: 0;
+    padding-left: 30px;
+    position: absolute;
+    z-index: 2;
 }
 
-.upload{
-    position:relative;
-    padding-right: 10px;
-}
 .upload:after{
     content: url("../images/camera.svg");
     position: absolute;
-    right:19px;
+    right:9px;
     top: 9px;
     transform: translateY(-25%);
 }
 
-.delete{
-    position: relative;
-}
-
-.delete:before{
-    content: url("../images/bin.svg");
-    position: absolute;
-    top: 10px;
-    transform: translateY(-25%);
-    left: 10px;
-    width: 8px;
+.delete-btn{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    height: 30px;
+    width: 30px;
+    color: #969696;
+    cursor: pointer;
 }
 
