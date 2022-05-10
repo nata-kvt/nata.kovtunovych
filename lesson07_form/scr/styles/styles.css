@@ -208,15 +208,15 @@ a, a:visited{
 
 .upload{
     position:relative;
-    padding-right: 10px;
     width: 138px;
     height: 30px;
 }
 
 .uploader{
     opacity: 0;
-    padding-left: 30px;
+    right: 5px;
     position: absolute;
+    width: 30px;
     z-index: 2;
 }
 
@@ -236,5 +236,9 @@ a, a:visited{
     width: 30px;
     color: #969696;
     cursor: pointer;
+}
+
+.delete{
+    padding-left: 10px;
 }
 
