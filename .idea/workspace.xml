@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9523d4d1-4d6f-4978-b4a3-31167bd048e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson16_prepros/src/styles/_general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16_prepros/src/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16_prepros/src/styles/blocks/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16_prepros/src/styles/blocks/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16_prepros/src/styles/blocks/_main-section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16_prepros/src/styles/main.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28ez7tAfrKyKHkdJHedpd0Pac9h" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/natashakovtunovych/Projects/beetroot/nata.kovtunovych",
+    "list.type.of.created.stylesheet": "SCSS",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.import",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lesson16_prepros/src/css" />
+      <recent name="$PROJECT_DIR$/lesson15_svg/src" />
+      <recent name="$PROJECT_DIR$/lesson07_form/scr/styles" />
+      <recent name="$PROJECT_DIR$/lesson07_form/scr" />
+      <recent name="$PROJECT_DIR$/lesson07_form/scr/slyles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9523d4d1-4d6f-4978-b4a3-31167bd048e0" name="Changes" comment="" />
+      <created>1651591675128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651591675128</updated>
+      <workItem from="1651591677564" duration="22049000" />
+      <workItem from="1651846303896" duration="28844000" />
+      <workItem from="1652357891927" duration="7794000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
